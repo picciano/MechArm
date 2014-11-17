@@ -13,6 +13,8 @@
 		E4D23F6D1A1ABB8700AD4377 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D23F6C1A1ABB8700AD4377 /* Images.xcassets */; };
 		E4D23F701A1ABB8700AD4377 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4D23F6E1A1ABB8700AD4377 /* LaunchScreen.xib */; };
 		E4D23F7C1A1ABB8700AD4377 /* MechArmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D23F7B1A1ABB8700AD4377 /* MechArmTests.swift */; };
+		E4D23F861A1ABC1000AD4377 /* MechArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D23F851A1ABC1000AD4377 /* MechArmView.swift */; };
+		E4D23F881A1ABD3D00AD4377 /* StyleKitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D23F871A1ABD3D00AD4377 /* StyleKitName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E4D23F751A1ABB8700AD4377 /* MechArmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechArmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D23F7A1A1ABB8700AD4377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4D23F7B1A1ABB8700AD4377 /* MechArmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MechArmTests.swift; sourceTree = "<group>"; };
+		E4D23F851A1ABC1000AD4377 /* MechArmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MechArmView.swift; sourceTree = "<group>"; };
+		E4D23F871A1ABD3D00AD4377 /* StyleKitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKitName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		E4D23F621A1ABB8700AD4377 /* MechArm */ = {
 			isa = PBXGroup;
 			children = (
+				E4D23F871A1ABD3D00AD4377 /* StyleKitName.swift */,
 				E4D23F651A1ABB8700AD4377 /* AppDelegate.swift */,
 				E4D23F671A1ABB8700AD4377 /* ViewController.swift */,
+				E4D23F851A1ABC1000AD4377 /* MechArmView.swift */,
 				E4D23F691A1ABB8700AD4377 /* Main.storyboard */,
 				E4D23F6C1A1ABB8700AD4377 /* Images.xcassets */,
 				E4D23F6E1A1ABB8700AD4377 /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D23F681A1ABB8700AD4377 /* ViewController.swift in Sources */,
+				E4D23F861A1ABC1000AD4377 /* MechArmView.swift in Sources */,
 				E4D23F661A1ABB8700AD4377 /* AppDelegate.swift in Sources */,
+				E4D23F881A1ABD3D00AD4377 /* StyleKitName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
